@@ -1,10 +1,10 @@
-# 🛡️ Home SOC Lab — Wazuh + Sysmon on Windows 11
+# Home SOC Lab — Wazuh + Sysmon on Windows 11
 
 A home Security Operations Center (SOC) lab built on a Windows 11 laptop using Wazuh (Docker), Sysmon, and a Kali Linux attacker machine. Designed to simulate real-world attack scenarios and practice threat detection, log analysis, and MITRE ATT&CK mapping.
 
 ---
 
-## 🗺️ Architecture
+## Architecture
 
 ```
 [Kali Linux Laptop]
@@ -25,7 +25,7 @@ Both machines on the same home network. Future improvement: isolate lab traffic 
 
 ---
 
-## 🧰 Components
+## Components
 
 | Component | Version | Role |
 |-----------|---------|------|
@@ -40,7 +40,7 @@ Both machines on the same home network. Future improvement: isolate lab traffic 
 
 ---
 
-## 🚀 Setup Guide
+## Setup Guide
 
 ### Prerequisites
 - Windows 11 laptop
@@ -217,7 +217,7 @@ nikto -h http://<WINDOWS_HOST_IP>
 
 ---
 
-## 📊 Viewing Results in Wazuh
+## Viewing Results in Wazuh
 
 1. Open `https://localhost`
 2. Go to **Threat Intelligence > Threat Hunting**
@@ -227,7 +227,7 @@ nikto -h http://<WINDOWS_HOST_IP>
 
 ---
 
-## 🗺️ MITRE ATT&CK Coverage
+## MITRE ATT&CK Coverage
 
 | Technique | ID | Attack Simulation |
 |-----------|-----|------------------|
@@ -240,19 +240,19 @@ nikto -h http://<WINDOWS_HOST_IP>
 
 ---
 
-## 🔮 Planned Improvements
+## Planned Improvements
 
-- [ ] Add dedicated isolated router for lab network segmentation
-- [ ] Add USB-to-Ethernet adapter for dual-NIC Windows setup
-- [ ] Integrate Shuffle SOAR for automated alert response
-- [ ] Add TheHive for case management
-- [ ] Deploy a vulnerable VM (Metasploitable) as a dedicated target
-- [ ] Build custom Wazuh detection rules
-- [ ] Add Elastic SIEM integration
+-  Add dedicated isolated router for lab network segmentation
+-  Add USB-to-Ethernet adapter for dual-NIC Windows setup
+-  Integrate Shuffle SOAR for automated alert response
+-  Add TheHive for case management
+-  Deploy a vulnerable VM (Metasploitable) as a dedicated target
+-  Build custom Wazuh detection rules
+-  Add Elastic SIEM integration
 
 ---
 
-## 📁 Repo Structure
+## Repo Structure
 
 ```
 home-soc-lab/
