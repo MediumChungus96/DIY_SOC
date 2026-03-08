@@ -1,4 +1,4 @@
-# ⚔️ Attack Playbook
+#  Attack Playbook
 
 Quick reference for all attack simulations in this lab.
 
