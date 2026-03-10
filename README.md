@@ -250,21 +250,6 @@ nikto -h http://<WINDOWS_HOST_IP>
 -  Build custom Wazuh detection rules
 -  Add Elastic SIEM integration
 
----
-
-## Repo Structure
-
-```
-home-soc-lab/
-├── README.md               # This file
-├── docs/
-│   ├── setup.md            # Detailed setup walkthrough
-│   └── attack-playbook.md  # Attack simulation reference
-├── configs/
-│   └── ossec.conf          # Wazuh agent config
-└── rules/
-    └── custom_rules.xml    # Custom Wazuh detection rules (WIP)
-```
 
 ---
 
