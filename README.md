@@ -145,7 +145,7 @@ NET START WazuhSvc
 
 ---
 
-## ⚔️ Attack Simulations
+## Attack Simulations
 
 All attacks run from the Kali machine targeting the Windows host at `<WINDOWS_HOST_IP>`.
 
